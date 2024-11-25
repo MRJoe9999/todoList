@@ -1,0 +1,58 @@
+.container {
+  background-image: url(./images/BG.jpg);
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: White;
+  border-radius: 10px;
+  font-size: 18px;
+}
+body {
+  background-color: #f0f0f0;
+  display: flexbox;
+  justify-content: center;
+  justify-items: center;
+}
+.sub-Container,
+.elements {
+  width: 400px;
+  height: 50px;
+  display: grid;
+  grid-template-columns: 200px 130px 130px;
+  grid-template-rows: 50px;
+  gap: 10px;
+}
+.glass {
+  position: absolute;
+  top: 8px;
+  left: 413px;
+  background-color: transparents;
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  /* Semi-transparent white background */
+  backdrop-filter: blur(5px); /* Applies the blur effect to the background */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: Light border to enhance the glass effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.466); /* Optional: Light shadow for depth */
+}
+.Todo-Input,
+.Date-Input {
+  font-size: 18px;
+}
+.add-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.Delete-Button {
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+}
